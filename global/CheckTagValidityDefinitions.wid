@@ -1,0 +1,28 @@
+[
+        [
+            "name" : "CheckTagValidityDefinitions",
+            "displayName" : "CheckTagValidityDefinitions",
+            "category" : "tag-validity",
+            "description" : "",
+            "defaultHandler" : "mvel: new org.jbpm.contrib.CheckTagValidityWorkItemHandler()",
+            "documentation" : "tag-validity/index.html",
+
+            "parameters" : [
+                                "tagId" : new StringDataType()
+                ,"partnerId" : new StringDataType()
+                ,"ticketId" : new StringDataType()
+
+            ],
+            "results" : [
+                                "Result" : new StringDataType()
+
+            ],
+            "mavenDependencies" : [
+                                 "org.jbpm.contrib:tag-validity:1.0.0-SNAPSHOT"
+
+            ],
+            "icon" : "CheckTagValidityDefinitions.png"
+
+        ]
+
+]
